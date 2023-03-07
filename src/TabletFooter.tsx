@@ -25,7 +25,7 @@ function TabletFooter({footerColorChange, location}: {footerColorChange: any, lo
             <MoreInfroText color={footerColorChange ? "#FFFFFF" : "#303030"} >Day of the week</MoreInfroText>
             <MoreInfoResult color={footerColorChange ? "#FFFFFF" : "#303030"} >{location.day_of_week}</MoreInfoResult>
           </MoreInfroMiniWrapper>
-          <Column style={{marginLeft: window.outerWidth > 1365 ? "91px" : "40px"}} ></Column>
+          <Column style={{marginLeft: window.outerWidth > 1199 ? "91px" : "40px"}} ></Column>
           <MoreInfroMiniWrapper style={{ marginRight: "26px" }}>
             <MoreInfroText color={footerColorChange ? "#FFFFFF" : "#303030"} >Week number</MoreInfroText>
             <MoreInfoResult color={footerColorChange ? "#FFFFFF" : "#303030"} >{location.week_number}</MoreInfoResult>

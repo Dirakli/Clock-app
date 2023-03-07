@@ -76,11 +76,11 @@ function App() {
     console.log(currentTime);
     const updateBackgroundImage = () => {
       if (currentTime > 8 && currentTime < 19) {
-        setBackgroundChange(screenSize < 768 ? mobileDaytimeImage : (screenSize > 1365 ? DesktopDaytimeImage : TabletDaytimeImage));
+        setBackgroundChange(screenSize < 768 ? mobileDaytimeImage : (screenSize > 1199 ? DesktopDaytimeImage : TabletDaytimeImage));
         setSunOrMoonIcon(sunIcon);
         setMorningEveningWord("morning");
       } else {
-        setBackgroundChange(screenSize < 768 ? mobileNighttimeImage : (screenSize > 1365 ? DesktopNighttimeImage : TabletNighttimeImage));
+        setBackgroundChange(screenSize < 768 ? mobileNighttimeImage : (screenSize > 1199 ? DesktopNighttimeImage : TabletNighttimeImage));
         setSunOrMoonIcon(moonIcon);
         setMorningEveningWord("evening");
       }
